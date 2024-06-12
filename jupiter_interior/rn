@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+source "${MESA_DIR}/star/test_suite/test_suite_helpers"
+
+date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S" 
+do_one inlist_evolve_1.00_MJ_10.00_ME_2.00_RJ_header planet_evolve_1.00_MJ_10.0_ME_2.0_RJ.mod 
+date "+DATE: %Y-%m-%d%nTIME: %H:%M:%S"
+echo "FINISHED EVOLVING PLANET"
